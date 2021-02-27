@@ -15,6 +15,7 @@
 		3C52750725EA9E4300EB91EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C52750525EA9E4300EB91EC /* LaunchScreen.storyboard */; };
 		3C52751225EA9E4300EB91EC /* SSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52751125EA9E4300EB91EC /* SSLTests.swift */; };
 		3C52751D25EA9E4300EB91EC /* SSLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52751C25EA9E4300EB91EC /* SSLUITests.swift */; };
+		3C52752E25EA9E9100EB91EC /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52752D25EA9E9100EB91EC /* ServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3C52751825EA9E4300EB91EC /* SSLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C52751C25EA9E4300EB91EC /* SSLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLUITests.swift; sourceTree = "<group>"; };
 		3C52751E25EA9E4300EB91EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C52752D25EA9E9100EB91EC /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3C52750325EA9E4300EB91EC /* Assets.xcassets */,
 				3C52750525EA9E4300EB91EC /* LaunchScreen.storyboard */,
 				3C52750825EA9E4300EB91EC /* Info.plist */,
+				3C52752D25EA9E9100EB91EC /* ServiceManager.swift */,
 			);
 			path = SSL;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				3C5274FF25EA9E4100EB91EC /* ViewController.swift in Sources */,
 				3C5274FB25EA9E4100EB91EC /* AppDelegate.swift in Sources */,
 				3C5274FD25EA9E4100EB91EC /* SceneDelegate.swift in Sources */,
+				3C52752E25EA9E9100EB91EC /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
